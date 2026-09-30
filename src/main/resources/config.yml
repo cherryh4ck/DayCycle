@@ -1,0 +1,4 @@
+# Day & night cycle modifier
+# Values are in seconds
+day-length: 600
+night-length: 600

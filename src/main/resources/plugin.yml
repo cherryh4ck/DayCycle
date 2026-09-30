@@ -1,0 +1,9 @@
+name: DayCycle
+description: $description
+version: '${version}'
+
+main: io.cherryh4ck.dayCycle.DayCycle
+api-version: '26.3'
+load: POSTWORLD
+
+authors: [ cherryh4ck ]
