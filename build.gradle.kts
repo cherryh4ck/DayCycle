@@ -11,10 +11,15 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.3.build.+")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.bstats:bstats-bukkit:3.2.1")
 }
 
 kotlin {
     jvmToolchain(25)
+}
+
+tasks.shadowJar {
+    relocate("org.bstats", project.group.toString())
 }
 
 tasks {
